@@ -1,8 +1,8 @@
 'use strict';
 
-var React = require('react');
+var React = require('react/addons');
 window.React = React;
 
-var MyComponent = require('./components/mycomponent.jsx');
+var SearchableIssue = require('./components/searchable-issue.jsx');
 
-React.render(<MyComponent />, document.getElementById('content'));
+React.render(<SearchableIssue />, document.getElementById('content'));
